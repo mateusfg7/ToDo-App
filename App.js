@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   TextInput,
 } from "react-native";
+import Constants from "expo-constants";
 
 export default function App() {
   const [todos, setTodos] = useState([]);
@@ -54,6 +55,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    padding: 50,
+    padding: 10,
+    paddingTop: Constants.statusBarHeight + 10,
   },
 });
