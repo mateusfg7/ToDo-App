@@ -37,7 +37,7 @@ export default function App() {
                 setTodos(keepedTodos);
               }}
             >
-              <Text>check</Text>
+              <Text style={styles.checkedButtonText}>check</Text>
             </TouchableOpacity>
             <Text style={styles.todoText}>{todo}</Text>
           </View>
