@@ -44,7 +44,10 @@ export default function App() {
       <View style={styles.addTodoContainer}>
         <TouchableOpacity
           style={styles.addButton}
-          onPress={(_) => setTodos([...todos, newTodo])}
+          onPress={(_) => {
+            setTodos([...todos, newTodo]);
+            setNewTodo("");
+          }}
         >
           <Text styel={styles.addButtonText}>Add</Text>
         </TouchableOpacity>
