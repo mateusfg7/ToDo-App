@@ -16,7 +16,13 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mateusfg7.todoapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mateusfg7.todoapp",
+      "versionCode": "1.0.0"
     }
   }
 }
