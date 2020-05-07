@@ -16,7 +16,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>TO DO</Text>
+        <View style={styles.headerViewChild}>
+          <Text style={styles.title}>TO DO</Text>
+        </View>
       </View>
       <FlatList
         style={styles.todoList}

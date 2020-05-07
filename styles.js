@@ -7,15 +7,20 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    padding: 10,
-    paddingTop: 0,
     backgroundColor: "rgb(25,25,25)",
   },
   header: {
     backgroundColor: "#006fc4",
-    width: 350,
-    height: Constants.statusBarHeight + 40,
+    height: Constants.statusBarHeight + 70,
+    alignSelf: "stretch",
     justifyContent: "flex-end",
+    alignItems: "center",
+  },
+  headerViewChild: {
+    height: 70,
+    alignSelf: "stretch",
+
+    justifyContent: "center",
     alignItems: "center",
   },
   title: {
