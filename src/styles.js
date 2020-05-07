@@ -73,12 +73,16 @@ const styles = StyleSheet.create({
     fontSize: 12,
   },
   addButton: {
-    backgroundColor: "#006fc4",
+    backgroundColor: "#0085FF",
     borderRadius: 10,
-    padding: 10,
+    width: 70,
+    alignSelf: "stretch",
     alignItems: "center",
     justifyContent: "center",
-    fontSize: 30,
+  },
+  addButtonText: {
+    color: "#fff",
+    fontSize: 14,
   },
 });
 

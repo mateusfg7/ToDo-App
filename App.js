@@ -55,7 +55,7 @@ export default function App() {
             setNewTodo("");
           }}
         >
-          <Text styel={styles.addButtonText}>Add</Text>
+          <Text style={styles.addButtonText}>Add</Text>
         </TouchableOpacity>
         <View style={styles.inputNewTodoArea}>
           <TextInput
