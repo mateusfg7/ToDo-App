@@ -46,6 +46,7 @@ export default function App() {
           </View>
         )}
       />
+
       <View style={styles.addTodoContainer}>
         <TouchableOpacity
           style={styles.addButton}
@@ -56,12 +57,14 @@ export default function App() {
         >
           <Text styel={styles.addButtonText}>Add</Text>
         </TouchableOpacity>
-        <TextInput
-          placeholder='add new todo...'
-          value={newTodo}
-          onChangeText={(text) => setNewTodo(text)}
-          style={styles.inputNewTodo}
-        />
+        <View style={styles.inputNewTodoArea}>
+          <TextInput
+            placeholder='Add new todo...'
+            value={newTodo}
+            onChangeText={(text) => setNewTodo(text)}
+            style={styles.inputNewTodo}
+          />
+        </View>
       </View>
     </SafeAreaView>
   );

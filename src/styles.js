@@ -54,13 +54,23 @@ const styles = StyleSheet.create({
   },
   addTodoContainer: {
     flexDirection: "row-reverse",
+    justifyContent: "space-between",
+    alignItems: "center",
+    height: 33,
     borderRadius: 10,
-    backgroundColor: "rgb(15,15,15)",
+    marginBottom: 12,
+    backgroundColor: "#DFDFDF",
+  },
+  inputNewTodoArea: {
+    minWidth: 111,
+    alignSelf: "stretch",
+    alignItems: "center",
+    justifyContent: "center",
   },
   inputNewTodo: {
-    marginLeft: 10,
-    marginRight: 10,
-    color: "#fff",
+    maxWidth: 270,
+    color: "#000",
+    fontSize: 12,
   },
   addButton: {
     backgroundColor: "#006fc4",
