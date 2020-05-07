@@ -7,7 +7,7 @@ import {
   TextInput,
 } from "react-native";
 
-import styles from "./styles";
+import styles from "./src/styles";
 
 export default function App() {
   const [todos, setTodos] = useState([]);
