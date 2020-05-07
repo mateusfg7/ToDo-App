@@ -6,6 +6,7 @@ import {
   FlatList,
   TouchableOpacity,
   TextInput,
+  StatusBar,
 } from "react-native";
 
 import styles from "./src/styles";
@@ -16,6 +17,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar translucent backgroundColor='#0085FF' />
       <View style={styles.header}>
         <View style={styles.headerViewChild}>
           <Text style={styles.title}>TO DO</Text>
