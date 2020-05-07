@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   header: {
-    backgroundColor: "#006fc4",
+    backgroundColor: "#0085FF",
     height: Constants.statusBarHeight + 70,
     alignSelf: "stretch",
     justifyContent: "flex-end",
