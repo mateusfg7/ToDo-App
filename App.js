@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {
   Text,
   View,
+  SafeAreaView,
   FlatList,
   TouchableOpacity,
   TextInput,
@@ -14,7 +15,7 @@ export default function App() {
   const [newTodo, setNewTodo] = useState("");
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <View style={styles.headerViewChild}>
           <Text style={styles.title}>TO DO</Text>
@@ -60,6 +61,6 @@ export default function App() {
           style={styles.inputNewTodo}
         />
       </View>
-    </View>
+    </SafeAreaView>
   );
 }
