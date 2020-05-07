@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "To Do",
-    "slug": "To-Do App",
+    "slug": "todo-app",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
