@@ -11,6 +11,8 @@ import {
 
 import styles from "./src/styles";
 
+import Header from "./src/components/HeaderComponent";
+
 export default function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
@@ -18,11 +20,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar translucent backgroundColor='#0085FF' />
-      <View style={styles.header}>
-        <View style={styles.headerViewChild}>
-          <Text style={styles.title}>TO DO</Text>
-        </View>
-      </View>
+      <Header />
       <FlatList
         style={styles.todoList}
         data={todos}

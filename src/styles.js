@@ -1,4 +1,4 @@
-import { StyleSheet, StatusBar } from "react-native";
+import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
@@ -6,24 +6,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-  },
-  header: {
-    backgroundColor: "#0085FF",
-    height: StatusBar.currentHeight + 70,
-    alignSelf: "stretch",
-    justifyContent: "flex-end",
-    alignItems: "center",
-  },
-  headerViewChild: {
-    height: 70,
-    alignSelf: "stretch",
-
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  title: {
-    fontSize: 30,
-    color: "#fff",
   },
   todoList: {
     alignSelf: "stretch",
