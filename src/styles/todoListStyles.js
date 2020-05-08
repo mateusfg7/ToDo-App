@@ -3,26 +3,23 @@ import { StyleSheet } from "react-native";
 const todoListStyles = StyleSheet.create({
   todoList: {
     alignSelf: "stretch",
-    margin: 15,
+    margin: 20,
   },
   todoListView: {
     alignItems: "center",
     flexDirection: "row",
     flexWrap: "wrap",
     margin: 0,
-    marginBottom: 14,
+    marginBottom: 23,
   },
   todoText: {
     color: "#000",
     fontSize: 14,
   },
   checkedButton: {
-    backgroundColor: "#0085FF",
-    alignItems: "center",
-    justifyContent: "center",
-    marginRight: 9,
-    width: 35,
-    height: 27,
+    marginRight: 19,
+    borderColor: "#0085FF",
+    borderWidth: 2,
   },
   checkedButtonText: {
     color: "#fff",
