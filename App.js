@@ -1,18 +1,11 @@
 import React, { useState } from "react";
-import {
-  Text,
-  View,
-  SafeAreaView,
-  FlatList,
-  TouchableOpacity,
-  TextInput,
-  StatusBar,
-} from "react-native";
+import { SafeAreaView, StatusBar } from "react-native";
 
 import styles from "./src/styles";
 
 import Header from "./src/components/HeaderComponent";
 import TodoList from "./src/components/TodoListComponent";
+import AddTodo from "./src/components/AddTodoComponent";
 
 export default function App() {
   const [todos, setTodos] = useState([]);
@@ -21,28 +14,17 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar translucent backgroundColor='#0085FF' />
+
       <Header />
+
       <TodoList todos={todos} setTodos={setTodos} />
 
-      <View style={styles.addTodoContainer}>
-        <TouchableOpacity
-          style={styles.addButton}
-          onPress={(_) => {
-            setTodos([...todos, newTodo]);
-            setNewTodo("");
-          }}
-        >
-          <Text style={styles.addButtonText}>Add</Text>
-        </TouchableOpacity>
-        <View style={styles.inputNewTodoArea}>
-          <TextInput
-            placeholder='Add new todo...'
-            value={newTodo}
-            onChangeText={(text) => setNewTodo(text)}
-            style={styles.inputNewTodo}
-          />
-        </View>
-      </View>
+      <AddTodo
+        setTodos={setTodos}
+        setNewTodo={setNewTodo}
+        todos={todos}
+        newTodo={newTodo}
+      />
     </SafeAreaView>
   );
 }
