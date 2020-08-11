@@ -13,7 +13,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar translucent backgroundColor='#0085FF' />
+      <StatusBar translucent backgroundColor='#333' />
 
       <Header />
 

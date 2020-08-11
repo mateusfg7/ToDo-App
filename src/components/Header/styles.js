@@ -2,7 +2,7 @@ import { StyleSheet, StatusBar } from "react-native";
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: "#0085FF",
+    backgroundColor: "#333",
     height: StatusBar.currentHeight + 70,
     alignSelf: "stretch",
     justifyContent: "flex-end",
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   title: {
-    fontSize: 30,
+    fontSize: 50,
     color: "#fff",
   },
 });
