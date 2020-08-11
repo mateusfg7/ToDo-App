@@ -13,18 +13,18 @@ const styles = StyleSheet.create({
     marginBottom: 23,
   },
   todoText: {
-    color: "#000",
-    fontSize: 14,
+    color: "#fff",
+    fontSize: 40,
   },
   checkedButton: {
     marginRight: 19,
-    borderColor: "#0085FF",
-    borderWidth: 2,
+    borderColor: "#333",
+    borderWidth: 5,
   },
-  checkedButtonText: {
-    color: "#fff",
-    fontSize: 12,
-  },
+  // checkedButtonText: {
+  //   color: "#fff",
+  //   fontSize: 12,
+  // },
 });
 
 export default styles;

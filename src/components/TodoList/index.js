@@ -16,8 +16,8 @@ const TodoList = ({ todos, setTodos }) => {
           <RadioButton labelHorizontal={true}>
             <RadioButtonInput
               obj={{}}
-              buttonSize={20}
-              buttonOuterSize={20}
+              // buttonSize={100}
+              buttonOuterSize={40}
               buttonStyle={styles.checkedButton}
               onPress={(_) => {
                 const keepedTodos = [];
