@@ -1,6 +1,6 @@
 import { StyleSheet, StatusBar } from "react-native";
 
-const headerStyles = StyleSheet.create({
+const styles = StyleSheet.create({
   header: {
     backgroundColor: "#0085FF",
     height: StatusBar.currentHeight + 70,
@@ -21,4 +21,4 @@ const headerStyles = StyleSheet.create({
   },
 });
 
-export default headerStyles;
+export default styles;

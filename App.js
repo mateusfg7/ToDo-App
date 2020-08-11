@@ -3,8 +3,8 @@ import { SafeAreaView, StatusBar } from "react-native";
 
 import styles from "./src/styles";
 
-import Header from "./src/components/HeaderComponent";
 import TodoList from "./src/components/TodoListComponent";
+import Header from "./src/components/Header"
 import AddTodo from "./src/components/AddTodo"
 
 export default function App() {
