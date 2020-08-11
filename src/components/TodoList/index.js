@@ -4,21 +4,21 @@ import RadioButton, {
   RadioButtonInput,
 } from "react-native-simple-radio-button";
 
-import todoListStyles from "../styles/todoListStyles";
+import styles from "./styles";
 
 const TodoList = ({ todos, setTodos }) => {
   return (
     <FlatList
-      style={todoListStyles.todoList}
+      style={styles.todoList}
       data={todos}
       renderItem={({ item: todo }) => (
-        <View style={todoListStyles.todoListView}>
+        <View style={styles.todoListView}>
           <RadioButton labelHorizontal={true}>
             <RadioButtonInput
               obj={{}}
               buttonSize={20}
               buttonOuterSize={20}
-              buttonStyle={todoListStyles.checkedButton}
+              buttonStyle={styles.checkedButton}
               onPress={(_) => {
                 const keepedTodos = [];
                 todos.map((uniqueTodo) => {
@@ -31,7 +31,7 @@ const TodoList = ({ todos, setTodos }) => {
             />
           </RadioButton>
 
-          <Text style={todoListStyles.todoText}>{todo}</Text>
+          <Text style={styles.todoText}>{todo}</Text>
         </View>
       )}
     />

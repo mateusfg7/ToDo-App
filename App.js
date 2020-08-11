@@ -3,7 +3,7 @@ import { SafeAreaView, StatusBar } from "react-native";
 
 import styles from "./src/styles";
 
-import TodoList from "./src/components/TodoListComponent";
+import TodoList from "./src/components/TodoList";
 import Header from "./src/components/Header"
 import AddTodo from "./src/components/AddTodo"
 

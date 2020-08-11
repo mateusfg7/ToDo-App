@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const todoListStyles = StyleSheet.create({
+const styles = StyleSheet.create({
   todoList: {
     alignSelf: "stretch",
     margin: 20,
@@ -27,4 +27,4 @@ const todoListStyles = StyleSheet.create({
   },
 });
 
-export default todoListStyles;
+export default styles;
