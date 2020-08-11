@@ -13,7 +13,7 @@ const AddTodo = ({ setTodos, setNewTodo, todos, newTodo }) => {
           setNewTodo("");
         }}
       >
-        <Text style={styles.addButtonText}>Add</Text>
+        <Text style={styles.addButtonText}>+</Text>
       </TouchableOpacity>
       <View style={styles.inputNewTodoArea}>
         <TextInput
