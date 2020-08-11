@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     height: 60,
     width: '100%',
-    backgroundColor: "#DFDFDF",
+    backgroundColor: "#444",
   },
   inputNewTodoArea: {
     flex: 1,
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     textAlign: 'center',
-    color: "#000",
+    color: "#fff",
     fontSize: 30,
   },
   addButton: {
