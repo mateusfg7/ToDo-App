@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const addTodoStyles = StyleSheet.create({
+const styles = StyleSheet.create({
   addTodoContainer: {
     flexDirection: "row-reverse",
     justifyContent: "space-between",
@@ -35,4 +35,4 @@ const addTodoStyles = StyleSheet.create({
   },
 });
 
-export default addTodoStyles;
+export default styles;

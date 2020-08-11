@@ -5,7 +5,7 @@ import styles from "./src/styles";
 
 import Header from "./src/components/HeaderComponent";
 import TodoList from "./src/components/TodoListComponent";
-import AddTodo from "./src/components/AddTodoComponent";
+import AddTodo from "./src/components/AddTodo"
 
 export default function App() {
   const [todos, setTodos] = useState([]);
