@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { SafeAreaView, StatusBar } from "react-native";
 
-import styles from "./src/styles";
+import styles from "./src/styles/global";
 
 import TodoList from "./src/components/TodoList";
 import Header from "./src/components/Header"
